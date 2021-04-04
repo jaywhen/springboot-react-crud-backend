@@ -22,4 +22,20 @@ public class Teacher {
     private String department;
     private String gender;
     private String avatar;
+    private String email;
+    private String address;
+    private String undergraduate;
+    private String master;
+    private String phd;
+    private String github;
+    private String bio;
+    private String title;
+    private String project;
+    private String description;
+    private String blog;
+    private Boolean ieee;
+    private String joinDate;
+    private Integer rate;
+    private Integer age;
+    private String stack;
 }

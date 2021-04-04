@@ -27,12 +27,7 @@ public class MainController {
         Teacher result = teacherRepository.save(teacher);
         Map<String, Object> map = new HashMap<>();
         if(result != null) {
-            map.put("id", result.getId());
-            map.put("name", result.getName());
-            map.put("tel", result.getTel());
-            map.put("department", result.getDepartment());
-            map.put("gender", result.getGender());
-            map.put("avatar", result.getAvatar());
+            map.put("userData", result);
         } else {
             map.put("error", 01);
         }
